@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="431" it="0" lt="430" ct="34" ts="1551842027240" s="false" lb="充值申请" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="236" sby="189" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /0000/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://192.168.100.187:8050/payment/reqInMoneyRemit?userCode=4957120271&amp;amt=30&amp;iAccountType=1</java.net.URL>
+</httpSample>
+
+</testResults>
